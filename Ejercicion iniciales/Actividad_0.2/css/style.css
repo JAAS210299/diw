@@ -2,7 +2,14 @@ body {
     width: 60em;
     margin: 0 auto;
   }
+#contenedor{
+    width: 60em;
+    clear: both;
+}
 
+nav{
+    border: 1px solid #ebf8ff;
+}
 h1{
     text-align: center;
 }
@@ -30,3 +37,9 @@ h1{
     
 }
 
+#art1 li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#art3 li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
