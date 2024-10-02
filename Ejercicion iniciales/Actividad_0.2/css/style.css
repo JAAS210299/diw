@@ -1,10 +1,12 @@
 body {
-    width: 60em;
-    margin: 0 auto;
-  }
-#contenedor{
+    
+}
+#contenedor nav, art-1, art{
     width: 60em;
     clear: both;
+    margin: auto;
+    background-color: aqua;
+    
 }
 
 nav{
