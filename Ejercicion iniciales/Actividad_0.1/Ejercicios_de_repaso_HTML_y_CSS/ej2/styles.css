@@ -1,0 +1,8 @@
+fieldset:hover :is(input[type="number"], input[type="text"]){
+    background-color: aqua;
+}
+
+input:focus{
+    border: 1px solid #e5ff00;
+    box-shadow: 0 0 10px #ffae00c0;
+}

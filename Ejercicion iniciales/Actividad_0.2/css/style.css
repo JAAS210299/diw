@@ -1,0 +1,32 @@
+body {
+    width: 60em;
+    margin: 0 auto;
+  }
+
+h1{
+    text-align: center;
+}
+
+#art-1{
+    float: left;
+    width: 16em;
+    height: 100%;
+    clear: left;
+}
+.sect-right{   
+    float: left;
+    width: 44em;
+    height: 100%;
+
+    
+}
+
+
+#art-3{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    columns: 3;
+    
+}
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>HTML-CSS</title>
+
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <label for="name" >Nombre:</label> <input type="text"  autofocus  id="name"/>
+      </fieldset>
+      <fieldset>
+        <label for="pass">Contraseña:</label> <input type="password" />
+    </fieldset>
+      <fieldset>
+        <label for="email">Correo electrónico</label> <input type="text"  id="email"/>
+      </fieldset>
+      <fieldset>
+        <label for="url">URL</label><input type="url" name="url" id="url" />
+      </fieldset>
+      <fieldset><label for="date">Fecha:</label><input type="date" /></fieldset>
+      <fieldset>
+        <label for="time">Tiempo:</label
+        ><input type="time" name="time" id="time" />
+      </fieldset>
+      <fieldset>
+        <label for="number">Número:</label
+        ><input type="number" name="number" id="number" />
+      </fieldset>
+      <fieldset>
+        <label for="telephone">Teléfono</label><input type="text" />
+      </fieldset>
+      <fieldset>
+        <label for="search">Término de búsqueda:</label><input type="text" />
+      </fieldset>
+
+      <fieldset>
+        <label for="Favorite-Color">Color Favorito</label>
+        <input type="color" />
+      </fieldset>
+      <fieldset>
+        <label for="operative-system">Sistema operativo:</label>
+        <select name="operative-system" id="operative-system">
+          <option value="op1">Windows</option>
+          <option value="op2">Ubuntu</option>
+          <option value="op3">OpenSuse</option>
+          <option value="op4">Debian</option>
+          <option value="op5">MacOS</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label for="operative-language"
+          >¿Qué lenguaje de programación web conoces?</label
+        >
+        <input type="checkbox" id="opcion1" name="opciones[]" value="opcion1" />
+        <label for="opcion1">HTML5</label>
+
+        <input type="checkbox" id="opcion2" name="opciones[]" value="opcion2" />
+        <label for="opcion2">CSS3</label>
+        <input type="checkbox" id="opcion3" name="opciones[]" value="opcion3" />
+        <label for="opcion3">JavaScript</label>
+        <input type="checkbox" id="opcion4" name="opciones[]" value="opcion4" />
+        <label for="opcion4">PHP</label>
+        <input type="checkbox" id="opcion5" name="opciones[]" value="opcion5" />
+        <label for="opcion5">Python</label>
+      </fieldset>
+      <fieldset>
+        <label for="python">¿Sabés utilizar Python?</label>
+        <input type="radio" name="yes" id="yes" /><label for="yes">Si</label
+        ><input type="radio" name="not" id="not" /><label for="not">No</label>
+      </fieldset>
+      <fieldset>
+        <label for="Comment">Comentarios:</label
+        ><textarea
+          id="comentarios"
+          name="comentarios"
+          rows="4"
+          cols="50"
+        ></textarea>
+      </fieldset>
+      <fieldset><input type="submit" value="Submit" /></fieldset>
+    </form>
+  </body>
+</html>

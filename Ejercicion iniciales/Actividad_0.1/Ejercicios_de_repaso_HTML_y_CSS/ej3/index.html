@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ejercicio 3</title>
+  </head>
+  <body>
+    <legend>Tabla de Selectores CSS</legend>
+
+    <table>
+      <tr>
+        <th>Selector</th>
+        <th>Ámbito</th>
+        <th>Descripción</th>
+      </tr>
+      <tr>
+        <td>.header {...}</td>
+        <td>Todos los elementos con la clase "header"</td>
+        <td>Aplica estilos a todos los elementos con la clase "header"</td>
+      </tr>
+      <tr>
+        <td>.find form.search.button {...}</td>
+        <td>
+          Botones con la clase "button" que sean descendientes directos de un
+          elemento con la clase "search", que a su vez sea descendiente directo
+          de un elemento con la clase "find"
+        </td>
+        <td>
+          Aplica estilos a botones con la clase "button" dentro de un elemento
+          con la clase "search" y "find"
+        </td>
+      </tr>
+      <tr>
+        <td>.find, form, .search, .button {...}</td>
+        <td>
+          Todos los elementos con la clase "find", todos los elementos "form",
+          todos los elementos con la clase "search" y todos los elementos con la
+          clase "button"
+        </td>
+        <td>Aplica estilos a varios elementos con diferentes clases y tipos</td>
+      </tr>
+      <tr>
+        <td>.header label {...}</td>
+        <td>
+          Etiquetas &lt;label&gt; dentro de elementos con la clase "header"
+        </td>
+        <td>
+          Aplica estilos a etiquetas &lt;label&gt; dentro de elementos con la
+          clase "header"
+        </td>
+      </tr>
+      <tr>
+        <td>#cohe, #cobo {...}</td>
+        <td>Elementos con el ID "cohe" y elementos con el ID "cobo"</td>
+        <td>Aplica estilos a elementos con IDs específicos</td>
+      </tr>
+      <tr>
+        <td>.syndicate-module img {...}</td>
+        <td>Imágenes dentro de elementos con la clase "syndicate-module"</td>
+        <td>
+          Aplica estilos a imágenes dentro de elementos con la clase
+          "syndicate-module"
+        </td>
+      </tr>
+      <tr>
+        <td>#form-login p {...}</td>
+        <td>Párrafos dentro del elemento con el ID "form-login"</td>
+        <td>
+          Aplica estilos a párrafos dentro de un elemento con el ID "form-login"
+        </td>
+      </tr>
+      <tr>
+        <td>#login br {...}</td>
+        <td>Etiquetas &lt;br&gt; dentro del elemento con el ID "login"</td>
+        <td>
+          Aplica estilos a etiquetas &lt;br&gt; dentro de un elemento con el ID
+          "login"
+        </td>
+      </tr>
+      <tr>
+        <td>#login.button {...}</td>
+        <td>Elemento con el ID "login" que también tenga la clase "button"</td>
+        <td>
+          Aplica estilos a un elemento con el ID "login" y la clase "button"
+        </td>
+      </tr>
+      <tr>
+        <td>label.invalid {...}</td>
+        <td>Etiquetas &lt;label&gt; con la clase "invalid"</td>
+        <td>Aplica estilos a etiquetas &lt;label&gt; con la clase "invalid"</td>
+      </tr>
+      <tr>
+        <td>div.itemCommentsForm form</td>
+        <td>
+          Elementos &lt;form&gt; dentro de elementos &lt;div&gt; con la clase
+          "itemCommentsForm"
+        </td>
+        <td>
+          Aplica estilos a elementos &lt;form&gt; dentro de elementos
+          &lt;div&gt; con la clase "itemCommentsForm"
+        </td>
+      </tr>
+      <tr>
+        <td>input#submitCommentButton {...}</td>
+        <td>Elemento &lt;input&gt; con el ID "submitCommentButton"</td>
+        <td>
+          Aplica estilos a un elemento &lt;input&gt; con el ID
+          "submitCommentButton"
+        </td>
+      </tr>
+      <tr>
+        <td>#s5_bottom_menu_wrap ul.menu li {...}</td>
+        <td>
+          Elementos &lt;li&gt; dentro de una lista &lt;ul&gt; con la clase
+          "menu", que a su vez está dentro de un elemento con el ID
+          "s5_bottom_menu_wrap"
+        </td>
+        <td>
+          Aplica estilos a elementos &lt;li&gt; dentro de una lista &lt;ul&gt;
+          con la clase "menu" y dentro de un elemento con el ID
+          "s5_bottom_menu_wrap"
+        </td>
+      </tr>
+      <tr>
+        <td>.module_round_box ul.menu ul a {...}</td>
+        <td>
+          Enlaces (&lt;a&gt;) dentro de una lista &lt;ul&gt; anidada dentro de
+          otra lista &lt;ul&gt; con la clase "menu", que a su vez está dentro de
+          un elemento con la clase "module_round_box"
+        </td>
+        <td>
+          Aplica estilos a enlaces (&lt;a&gt;) dentro de una lista &lt;ul&gt;
+          anidada dentro de otra lista &lt;ul&gt; con la clase "menu" y dentro
+          de un elemento con la clase "module_round_box"
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
