@@ -1,0 +1,127 @@
+/* .principal{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-areas: "sect sect";
+    background-color: #0076cf;;
+}
+.sect{
+    border: 1px solid #009ed6;
+}
+.art{
+    background-color: #00d7eb;
+
+}  */
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* ampliado     */
+body {
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: 1fr 300px;
+    grid-template-areas: 
+        "header header"
+        "nav nav"
+        "main-news sidebar"
+        "footer footer";
+    min-height: 100vh;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    grid-area: header;
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav {
+    grid-area: nav;
+    background-color: #666;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-news {
+    grid-area: main-news;
+    background-color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    gap: 20px;
+}
+
+.noticia-principal img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #e4e4e4;
+    padding: 20px;
+    display: grid;
+    grid-auto-rows: auto;
+    gap: 20px;
+}
+
+.noticia-secundaria {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.noticia-secundaria img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Adaptación para pantallas pequeñas */
+@media (max-width: 768px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "header"
+            "nav"
+            "main-news"
+            "sidebar"
+            "footer";
+    }
+}
+
+
+.color1 {color: #0076cf;}
+.color2 {color: #009ed6;}
+.color3 {color: #00d7eb;}
+.color4 {color: #67ffff;}
+.color5 {color: #cdffff;}
