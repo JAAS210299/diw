@@ -1,28 +1,15 @@
-/* .principal{
-    display: grid;
-    grid-template-columns: 45% 45%;
-    grid-template-areas: "sect sect";
-    background-color: #0076cf;;
-}
-.sect{
-    border: 1px solid #009ed6;
-}
-.art{
-    background-color: #00d7eb;
 
-}  */
- 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
- /* ampliado     */
+
 body {
     font-family: Arial, sans-serif;
     display: grid;
     grid-template-rows: auto auto 1fr auto;
-    grid-template-columns: 1fr 300px;
+    grid-template-columns: 4fr 2fr;
     grid-template-areas: 
         "header header"
         "nav nav"
@@ -34,6 +21,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
+
 
 .header {
     grid-area: header;
@@ -57,6 +45,15 @@ body {
     list-style: none;
 }
 
+.nav ul li a:hover{
+    color:#00d7eb;
+    font-style: italic;
+}
+.header h1:hover{
+    color: #00d7eb;
+    font-style: italic;
+}
+
 .nav a {
     color: white;
     text-decoration: none;
@@ -68,14 +65,19 @@ body {
     background-color: white;
     padding: 20px;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: auto;
-    gap: 20px;
+    grid-template-columns: 2fr 1fr;
+    grid-auto-rows: 2fr;
+    gap: 25px;
 }
 
+.noticia-principal h2{
+    font-size: xx-large;
+    margin: 10px 0 10px 10px;
+}
 .noticia-principal img {
     max-width: 100%;
     height: auto;
+    margin: 10px 0 10px 10px;
 }
 
 .sidebar {
@@ -87,13 +89,22 @@ body {
     gap: 20px;
 }
 
-.noticia-secundaria {
+.noticias-secundarias {
     background-color: white;
     padding: 10px;
     border-radius: 5px;
+    display: grid;
+    justify-items: center;
+  
+}
+.noticia-principal{
+    margin: 20px 0 20px 0;
+    max-width: 100%;
+    height: auto;   
 }
 
-.noticia-secundaria img {
+.noticias-secundarias img {
+    margin: 20px 0 20px 0;
     max-width: 100%;
     height: auto;
 }
@@ -119,9 +130,14 @@ body {
     }
 }
 
-
-.color1 {color: #0076cf;}
-.color2 {color: #009ed6;}
-.color3 {color: #00d7eb;}
-.color4 {color: #67ffff;}
-.color5 {color: #cdffff;}
+.noticia-principal{
+    margin: 0 0 5% 0;
+    display: grid;
+    justify-items: center;
+}
+section article{
+    border: 2px solid rgb(204, 144, 34);
+    padding: 10px;
+    border-radius: 1%;
+    
+}
