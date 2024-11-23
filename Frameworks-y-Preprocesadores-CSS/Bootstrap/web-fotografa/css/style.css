@@ -1,3 +1,107 @@
-/* .navbar-nav me-auto mb-2 mb-lg-0 > *{
-    margin-right: 5%;
-} */
+/* Estilo general */
+body {
+    background-color: #b7e6f7;
+    color: #32455f;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #141c2c;
+    color: #b7e6f7;
+}
+
+.navbar {
+    background-color: #141c2c;
+}
+
+.navbar-brand, .nav-link {
+    color: #b7e6f7 !important;
+}
+
+.nav-link:hover {
+    color: #7c94ac !important;
+}
+
+/* Secciones */
+section {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: #7c94a4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#sobre-mi {
+    background-color: #6a8390;
+    color: #b7e6f7;
+}
+
+/* Botones */
+button {
+    background-color: #32455f;
+    color: #b7e6f7;
+}
+
+button:hover {
+    background-color: #5a6e77;
+    color: #040404;
+}
+
+/* Carrusel */
+.carousel-caption h5 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.carousel-caption p {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+/* Galería */
+#galeria img {
+    border: 2px solid #141c2c;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+#galeria img:hover {
+    transform: scale(1.05);
+}
+
+/* Formulario */
+form {
+    background-color: #54646c;
+    color: #b7e6f7;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+form .form-control {
+    background-color: #7c94a4;
+    color: #040404;
+}
+
+form .form-control:focus {
+    border-color: #32455f;
+    box-shadow: 0 0 0 0.2rem rgba(50, 69, 95, 0.25);
+}
+
+form button {
+    background-color: #7c94ac;
+    color: #040404;
+    border: none;
+}
+
+form button:hover {
+    background-color: #32455f;
+    color: #b7e6f7;
+}
+
+/* Footer */
+footer {
+    background-color: #141c2c;
+    color: #b7e6f7;
+}
