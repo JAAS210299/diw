@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotógrafa - Portafolio</title>
+    <link rel="icon" href="images/camara-de-fotos.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-3">
+        <h1>Portafolio de Fotografía</h1>
+        <p>Capturando momentos, paisajes y emociones</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Fotógrafa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre-mi.html">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <section id="inicio" class="mb-5">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/naturaleza.jpg" class="d-block w-100" alt="Paisaje 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Explorando la Naturaleza</h5>
+                            <p>Fotografías que capturan la esencia de los paisajes.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/urbano.jpg" class="d-block w-100" alt="Paisaje 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Momentos Urbanos</h5>
+                            <p>La belleza de la ciudad desde diferentes perspectivas.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/retrato.jpg" class="d-block w-100" alt="Paisaje 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Retratos que Hablan</h5>
+                            <p>Conexión y emoción a través del lente.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Fotógrafa - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
